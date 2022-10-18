@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /*border: 1px solid red;*/
+    font-family: 'Comfortaa', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Dancing+Script:wght@700&family=Edu+NSW+ACT+Foundation&family=Montserrat:wght@100&display=swap');
+
+#logo{
+    margin: 10px;
+}
+
+body{
+    background: #f9fdff;
+}
+
+main{
+    
+    display: flex;
+    height: 775px;
+}
+
+
+section{
+    width: 50%;
+    margin: 10px;
+}
+#ibtn{
+    width: 90%;
+    margin: 10px auto;
+}
+#idetallea {
+    display: flex;
+    margin: 0px;
+    padding: 4px;
+}
+#idebtn{
+    padding: 4px;
+}
+#itexatera{
+    width: 90%;
+    height: 600px;
+    margin: 10px auto;
+}
+
+textarea{
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18pt;
+    resize: none;
+}
+#signo {
+    width: 30px;
+    margin: 10px;
+}
+#ingrtxt{
+    width: 90%;
+    margin: 10px;
+}
+button {
+    width: 40%;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 13pt;
+    border: 1px solid #0a3871;
+    background: #ddeaf6;
+    box-shadow: 0px 20px 27px #e6e4e4;
+}
+
+button:hover {
+    width: 40%;
+    padding: 10px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 13pt;
+    border: 1px solid #0a3871;
+    background: #0a3871;
+    box-shadow: 0px 3px 30px #304c73;
+}
+
+
+#derinf{
+    width: 80%;
+    margin: 10px auto;
+}
+#seimg{
+    width: 80%;
+    margin: 0px auto;
+    background: #0a3871;
+}
+
+#banners {
+    width: 18%;
+    margin: 100px 0px;
+    position: absolute;
+    top: 101px;
+}
+
+#sebtn{
+    border-radius: 20px;
+    width: 400px;
+    display: flex;
+    margin: 0px auto;
+    padding: 10px;
+    flex-direction: column;
+    background: #fff;
+    height: 780px;
+    box-shadow: 0px 11px 38px 13px #ddeaf6;
+    position: absolute;
+    top: 10px;
+}
+#mensajes {
+    color: #000;
+    width: 90%;
+    margin: 0px auto;
+    height: 570px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+        h1 {
+            color: #0a3871;
+            position: absolute;
+            font-size: 15pt;
+            top: 478px;
+            margin: 6px 6px 6px 30px;
+            width: 210px;
+            text-align: center;
+        }
+
+#text-1{
+    color: #797979;
+    margin: 14px;
+    font-size: 12pt;
+    padding: 3px;
+}
+
+#text-2 {
+    color: #797979;
+    position: absolute;
+    top: 536px;
+    margin: 4px 10px 9px 20px;
+    font-size: 10pt;
+    width: 271px;
+    text-align: center;
+}
+
+#copiar {
+    margin: 130px 5px 8px 110px;
+   display: none;
+}
+
+#ingrtxt {
+    background: #f9fdff;
+    border-radius: 20px;
+    color: #0a3871;
+}
+

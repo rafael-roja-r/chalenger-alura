@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenger alura encriptador</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="img/Logo-1.png" alt="logo de alura" id="logo">
+    </header>
+    <main>
+        <section id="seizq">
+            <div id="itexatera">
+                <textarea class="ingresarText" name="" id="ingrtxt" cols="40" rows="10" placeholder="Igrese el texto a encriptar"></textarea>
+            </div>
+            <div id="ibtn">
+                <div id="idetallea">
+                    <img  id="signo" src="img/signo-de-exclamacion.png" alt="">
+                    <p id="text-1">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div id="idebtn">
+                    <button onclick="btnEncriptar()">Encriptar</button>
+                    <button onclick="btnDesencritar()">Desincriptar</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="seder">
+            <div id="derinf">
+                <div id="sebtn">
+                    
+                    <textarea class="mensajero" name="" id="mensajes" cols="30" rows="10"></textarea>
+                    <button id="copiar" onclick="copiarmensaje()">Copiar</button>
+                </div>
+            <div id="seimg">
+                <img src="img/Muñeco.png" alt="" id="banners">
+                <h1>Ningún mensaje fue encontrado</h1>
+                <p id="text-2">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            
+        </div>
+        </section>
+
+    </main>
+
+
+
+    <script src="js/app.js"> </script>
+</body>
+</html>
